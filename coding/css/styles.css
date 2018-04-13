@@ -178,7 +178,7 @@ body{
     height: 200px;
     margin: 0 auto 15px;
 }
-#category-tile span{
+.category-tile span{
     position: absolute;
     bottom:0;
     right:0;
@@ -193,7 +193,7 @@ body{
 #category-tile:hover{
     box-shadow: 0 1px 5px 1px #ccc;
 }
-#category-tile + div {
+#menu-categories-tile + div {
     margin-bottom: 50px;
 }
 @media(min-width: 1200px){
@@ -241,4 +241,23 @@ body{
     .panel-footer section hr{
         width: 75%;
     } 
+}
+@media(max-width: 479px){
+    .navbar-brand h1{
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+    .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float:left;
+        width: 100%;
+    }
 }
