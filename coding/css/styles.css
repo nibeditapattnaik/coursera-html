@@ -74,6 +74,15 @@ body{
     padding: 10px;
 }
 
+#call-btn{
+    border: solid 2px #557c3e;;
+    background-color: #f6b319;
+    text-align: center;
+    position: center;
+    font-size: 20px;
+    margin-left: relative;
+}
+
 #phone{
     margin-top:5px;
 }
@@ -97,6 +106,7 @@ body{
     clear :both;
     margin-top: -30px;
 }
+
 /* END OF HEADER*/
 /* FOOTER */
     .panel-footer{
