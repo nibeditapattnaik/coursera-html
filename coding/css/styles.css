@@ -77,10 +77,13 @@ body{
 #call-btn{
     border: solid 2px #557c3e;;
     background-color: #f6b319;
+    width: 150px;
+    height:35px;
     text-align: center;
     position: center;
     font-size: 20px;
-    margin-left: relative;
+    font-style: italic;
+    
 }
 
 #phone{
@@ -256,7 +259,7 @@ h3.menu-item-title{
 /*END OF SINGLE CATEGORY PAGE*/
 @media(min-width: 1200px){
    .jumbotron{
-        background: url('../images/car2.jpg') repeat;
+        background: url('../images/resturant.jpg') repeat;
         width : 675px;
         height: 675px;
         margin : 0 auto 15px;  
@@ -272,7 +275,7 @@ h3.menu-item-title{
 }
 @media(min-width: 768px) and (max-width: 991px){
     .jumbotron{
-    background: url('../images/car2.jpg') repeat;
+    background: url('../images/resturant.jpg') repeat;
     width : 430px;
     height: 430px;
     margin : 0 auto 15px;  
